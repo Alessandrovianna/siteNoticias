@@ -1,0 +1,235 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<title>Portal de Noticias</title>
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<script type="text/javascript" src="assets/javascript/script.js"></script>
+	</head>
+	<body>
+		<div class="topo">
+			<div class="topoint">
+				<div class="topoesquerdo">
+					<ul>
+						<li><a href="./" class="ativo">Home</a></li>
+						<li><a href="quem-somos">Quem Somos</a></li>
+						<li><a href="anuncie-aqui">Anuncie Aqui</a></li>
+						<li><a href="contato">Contatos</a></li>
+					</ul>
+				</div>
+				<div class="topodireito">
+					<input type="image" src="assets/imagens/busca2.png" border="0" width="26" height="26" />
+					<input type="text" name="busca" class="topobusca"placeholder="Busca..." />
+					<a href=""><img src="assets/imagens/face.jpg" border="0" width="26" height="26"></a>
+					<a href=""><img src="assets/imagens/tube.jpg" border="0" width="26" height="26"></a>
+					<a href=""><img src="assets/imagens/tw.JPG" border="0" width="26" height="26"></a>
+					<a href=""><img src="assets/imagens/twiter.JPG" border="0" width="26" height="26"></a>
+					<a href=""><img src="assets/imagens/in.JPG" border="0" width="26" height="26"></a>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="topo2">
+			<div class="topo2int">
+				<div class="logo">
+					<img src="assets/imagens/logo.png" width="230" />
+				</div>
+				<div class="banner">Noticícias a Todo Momento</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="menuint">
+				<img src="assets/imagens/menu1.png" border="0" width="40" height="40" 
+				 class="menumobile" onclick="toggleMenu()" />				
+				<ul id="menu">
+					<li><a href="./"  class="ativo">Home</a></li>
+					<li><a href="./">Economia</a></li>
+					<li>
+						<a href="./">Entreternimento</a>
+						<img src="assets/imagens/flecha2.png" border="0" width="11" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Submenu 1</div></a>
+							<a href="./"><div class="submenuitem">Submenu 2</div></a>
+							<a href="./"><div class="submenuitem">Submenu 3</div></a>
+							<a href="./"><div class="submenuitem">Submenu 4</div></a>
+							<a href="./"><div class="submenuitem">Submenu 5</div></a>
+						</div>
+					</li>
+					<li>
+						<a href="./">Esportes</a>
+						<img src="assets/imagens/flecha2.png" border="0" width="11" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Futebol</div></a>
+							<a href="./"><div class="submenuitem">Basquete</div></a>
+							<a href="./"><div class="submenuitem">Volei</div></a>
+							<a href="./"><div class="submenuitem">Beisebol</div></a>
+						</div>
+					</li>
+					<li><a href="./">Geral</a></li>
+					<li>
+						<a href="./">Notícias</a>
+						<img src="assets/imagens/flecha2.png" border="0" width="11" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Submenu 1</div></a>
+							<a href="./"><div class="submenuitem">Submenu 2</div></a>
+							<a href="./"><div class="submenuitem">Submenu 3</div></a>
+						</div>
+					</li>
+					<li><a href="./">Polícia</a></li>
+					<li><a href="./">Videos</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ultimasnoticias">
+			<div class="ultimasnoticiasint">
+				<div class="ultnoticiasarea">
+					<div class="ultnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+					<div class="ultnoticiasnoticia">Ronadinho Gaucho novamente é eleito o melhor 
+						jogador do mundo!
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="containerint">
+				<div class="leftside">
+					<div class="slideshow" id="slideshow">
+						<div class="slidebolinhas">
+							<div class="bolinhas" onclick="mudarSlide(0)"></div>
+							<div class="bolinhas" onclick="mudarSlide(1)"></div>
+							<div class="bolinhas" onclick="mudarSlide(2)"></div>
+							<div class="bolinhas" onclick="mudarSlide(3)"></div>
+						</div>
+						<div class="slideshowarea">
+							<div class="slide" style="background-image:url('assets/imagens/carro1.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">Carros Antigos</div>
+									<div class="slideinfo_subtitulo">Os carros antigos agora são muito valorizados nos
+										dias de hoje, todos se encantam quando passa um na rua.
+									</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('assets/imagens/carro2.jpg')"></div>
+							<div class="slide" style="background-image:url('assets/imagens/carro3.jpg')"></div>
+							<div class="slide" style="background-image:url('assets/imagens/carro4.jpg')"></div>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">Noticias</div>
+						<div class="widget_conteudo">
+							<div class="noticiaarea1">
+								<div class="noticiaitem noticiabig">
+									<div class="noticiaimg ">
+										<img src="assets/imagens/noticia4.jpg" border="0" width="460"/>
+									</div>
+									<div class="noticiatitulo">NEYMAR ESTÁ ENTRE ELES</div>
+									<div class="noticiainfo">Confira lista dos 10 atletas mais bem pagos 
+										da última década
+									</div>
+								</div>
+							</div>
+							<div class="noticiaarea2">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/imagens/noticia1.jpg" border="0" width="120"/>
+									</div>
+									<div class="noticiatitulo">REVOLTA</div>
+									<div class="noticiainfo">Apresentadora dá chilique ao vivo com faxineira
+										do estúdio
+									</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/imagens/noticia2.png" border="0" width="120"/>
+									</div>
+									<div class="noticiatitulo">PROJETO AUDACIOSO</div>
+									<div class="noticiainfo">A aposta de US$ 9 bi em um trem de alta velocidade 
+										nos EUA
+									</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/imagens/noticia3.jpg" border="0" width="120"/>
+									</div>
+									<div class="noticiatitulo">CRISE?</div>
+									<div class="noticiainfo">Os países que viram sua riqueza aumentar durante 
+										a pandemia
+									</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/imagens/noticia4.jpg" border="0" width="120"/>
+									</div>
+									<div class="noticiatitulo">NEYMAR ESTÁ ENTRE ELES</div>
+									<div class="noticiainfo">Confira lista dos 10 atletas mais bem pagos 
+										da última década
+									</div>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+					</div>
+				</div>
+				<div class="rightside">
+					<div class="widget">
+						<div class="widget_titulo">SOCIAL</div>
+						<div class="widget_conteudo">
+							<a href=""><img src="assets/imagens/in.JPG" border="0" width="26" height="26"></a>
+							<a href=""><img src="assets/imagens/twiter.JPG" border="0" width="26" height="26"></a>
+							<a href=""><img src="assets/imagens/tw.JPG" border="0" width="26" height="26"></a>
+							<a href=""><img src="assets/imagens/tube.jpg" border="0" width="26" height="26"></a>
+							<a href=""><img src="assets/imagens/face.jpg" border="0" width="26" height="26"></a>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+						<div class="widget_conteudo">
+							<div class="noticia_item">
+								Sem reformas, crise atual pode causar estagnação até 2030, diz governo.
+							</div>
+							<div class="noticia_item">
+								Recuperação da economia está veloz, mas é artificial, diz especialista.
+							</div>
+							<div class="noticia_item">
+								Sem conter gasto obrigatório, contas públicas entram em trajetória 
+								‘explosiva’, diz governo.
+							</div>
+							<div class="noticia_item">
+								Em audiência nos EUA, Twitter, Google e Facebook defendem seus métodos 
+								de moderação de conteúdo.
+							</div>
+							<div class="noticia_item">
+								Visa adquire controle da fintech YellowPepper, que atua na América Latina.
+							</div>
+							<div class="noticia_item">
+								Retomada da China mostra sinais divergentes com incerteza global.
+							</div>
+							<div class="noticia_item">
+								Investimento estrangeiro direto no Brasil caiu 48% no 1º semestre, diz ONU.
+							</div>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">PUBLICIDADE</div>
+						<div class="widget_conteudo">
+							<img src="assets/imagens/carros.jpg" border="0" width="275" height="275" />
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+						<div class="widget_conteudo">
+							<iframe src="https://www.facebook.
+							com/plugins/page.
+							php?href=https%3A%2F%2Fwww.facebook.
+							com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=
+							true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+							 width="275" height="300" style="border:none;overflow:hidden" scrolling="no"
+							frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
+    
